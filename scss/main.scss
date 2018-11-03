@@ -1,4 +1,5 @@
 @import "config";
+@import "menu";
 
 body {
   @include background;
@@ -52,7 +53,7 @@ main {
 
       &:hover {
         color: $secondary-color;
-        @include easeOute();
+        @include easeOut();
       }
     }
   }
