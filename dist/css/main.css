@@ -188,6 +188,40 @@ h3 {
   color: #ee3a1a;
   font-weight: 450; }
 
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .projects img {
+    width: 100%;
+    border: 2px #fff solid;
+    transition: all 0.6s ease-out; }
+    .projects img:hover {
+      opacity: 0.5;
+      border-color: #ee3a1a;
+      transition: all 0.6s ease-out; }
+
+.btn, .btn-dark, .btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.3rem;
+  transition: all 0.6s ease-out; }
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
+    opacity: 0.5;
+    border: 1px solid;
+    border-color: #ee3a1a;
+    transition: all 0.6s ease-out; }
+
+.btn-dark {
+  text-align: center;
+  background: #2b2b2b;
+  color: #fff; }
+
+.btn-light {
+  text-align: center;
+  background: #c4c4c4;
+  color: #333; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
