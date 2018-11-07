@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Potfolio Website",
   "main": "index.js",
-  "homepage": "https://abdalahfarhat.github.io/My-Portfolio",
+  "homepage": "https://abdalahfarhat.github.io/My-Portfolio/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
