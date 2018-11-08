@@ -110,10 +110,11 @@ body {
     body#bg-img:after {
       content: "";
       position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
-      width: 100%;
-      height: 150%;
+      min-width: 100%;
+      min-height: 100%;
       z-index: -1;
       background: rgba(68, 68, 68, 0.8); }
 
@@ -147,7 +148,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60px); }
+  min-height: calc(100vh - 70px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -210,12 +211,15 @@ h3 {
   .boxes div {
     font-size: 2rem;
     border: 2px #fff solid;
+    border-radius: 20px;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.6s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #ee3a1a; }
+      background: #ee3a1a;
+      opacity: 0.6;
+      border-radius: 20px; }
       .boxes div:hover span {
         color: #fff; }
 
@@ -244,7 +248,8 @@ h3 {
   text-align: center;
   padding: 1rem;
   background: #2b2b2b;
-  color: #fff; }
+  color: #fff;
+  height: 60px; }
 
 @media screen and (max-width: 1171px) {
   .projects {
